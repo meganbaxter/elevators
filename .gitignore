@@ -1,0 +1,11 @@
+.DS_Store
+ele
+ic
+*.exe
+*.o
+*.in
+*.csv
+*dSYM/
+.ftpconfig
+.ftpignore
+.vscode/
