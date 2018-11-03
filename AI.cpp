@@ -8,7 +8,7 @@ Move getAIMove(const BuildingState& buildingState) {
     return Move();
 }
 
-void setAIPickupList(Move& move, const BuildingState& buildingState, const Person people[MAX_PEOPLE_PER_FLOOR], const int size) {
+void setAIPickupList(Move& move, const BuildingState& buildingState, const Floor& floorToPickup) {
     
     // TODO: finish setAIPickupList
 }

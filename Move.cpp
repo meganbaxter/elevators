@@ -64,9 +64,3 @@ void Move::copyListOfPeopleToPickup(int newList[MAX_PEOPLE_PER_FLOOR]) const {
         newList[i] = peopleToPickup[i];
     }
 }
-
-void Move::setPersonToPickUpAtIndex(int setIndex, int personIndex, int personSatisfaction) {
-    peopleToPickup[setIndex] = personIndex;
-    ++numPeopleToPickup;
-    totalSatisfaction += personSatisfaction;
-}

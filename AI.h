@@ -25,9 +25,8 @@ Move getAIMove(const BuildingState& buildingState);
 * Modifies: move
 * Effects: modifies the provided move object and decides which indexes to select
 *          to pickup. Populates the peopleToPickup[] and numPeopletoPickup fields
-*          by calling move.setPersonToPickupAtIndex() for all the people the AI 
-*          decides to service. Resulting move must be a valid move
+*          by calling move.setPeopleToPickup(). Resulting move must be a valid move 
 */
-void setAIPickupList(Move& move, const BuildingState& buildingState, const Person people[MAX_PEOPLE_PER_FLOOR], const int size);
+void setAIPickupList(Move& move, const BuildingState& buildingState, const Floor& floorToPickup);
 
 #endif

@@ -105,14 +105,6 @@ public:
     void copyListOfPeopleToPickup(int newList[MAX_PEOPLE_PER_FLOOR]) const;
 
     /**
-     * Requires: setIndex and newIndex are valid indices
-     * Modifies: peopleToPickup
-     * Effects: changes the value of peopleToPickup at
-     *          setIndex to the value of newIndex
-     */
-    void setPersonToPickUpAtIndex(int setIndex, int personIndex, int personSatisfaction);
-
-    /**
      * Requires: pickupList is a valid list of indices
      *           currentFloor is the floor of the pickup request
      *           pickupFloor is the floor of the pickup request

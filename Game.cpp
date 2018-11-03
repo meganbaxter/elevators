@@ -168,14 +168,8 @@ Move Game::getMove() const {
             Elevator e = building.getElevatorById(aiMove.getElevatorId());
             Floor f = building.getFloorByFloorNum(e.getCurrentFloor());
 
-            int numPeople = 0;
-            Person peopleToPickup[MAX_PEOPLE_PER_FLOOR];
 
-            for (int i = 0; i < f.getNumPeople(); ++i) {
-                peopleToPickup[numPeople++] = f.getPersonByIndex(i);
-            }
-
-            setAIPickupList(aiMove, buildingState, peopleToPickup, numPeople);
+            setAIPickupList(aiMove, buildingState, f);
         }
 
         return aiMove;
