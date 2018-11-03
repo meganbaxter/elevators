@@ -110,7 +110,7 @@ public:
      *           pickupFloor is the floor of the pickup request
      * Modifies: numPeopleToPickup, peopleToPickup, totalSatisfaction, targetFloor
      * Effects: sets numPeopleToPickup and totalSatisfaction to 0
-     *          adds the indices of people to pickup to peopleToPickup
+     *          adds the indices specified in pickupList to peopleToPickup
      *          increments numPeopleToPickup by 1 for each person being picked up
      *          adds satisfaction gained from each person picked up to totalSatisfaction
      *          sets targetFloor to be the most extreme floor of those being picked up (furthest up or down)
