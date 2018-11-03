@@ -227,7 +227,7 @@ public:
      *          opens game input file
      *          if game input file cannot be open, exits with status 1
      *          else reads events from game input file
-     *          if event is happening happening on current turn, updates building with event
+     *          if event is happening on current turn, updates building with event
      *          else prints building and checks if game has ended,
      *          if it hasn't yet, gets user (player or AI) move
      *          updates building with move
@@ -242,7 +242,7 @@ public:
      *          adds current state of game to saveFile
      *          reads remaining moves from game input file
      *          if game input file cannot be opened
-     *              prints Game input file could not be opened!
+     *              prints "Game input file could not be opened!"
      *              and returns false
      *          else
      *              adds remaining move to saveFile
