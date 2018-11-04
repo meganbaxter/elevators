@@ -83,9 +83,6 @@ void Building::prettyPrintBuilding(ostream& outs, bool isAIMode) const {
             outs << endl << "   ";
 
             for (int j = 0; j <  NUM_ELEVATORS; ++j) {
-                //TODO: Input from Rana: Maybe instead of S, show the destination floor
-                //May need to change AI to match
-
 
                 char floorIndicatorIcon = ' ';
 
