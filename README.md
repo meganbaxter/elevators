@@ -1,7 +1,5 @@
-# Team Name
+# Elevators
 
-# Group Members (name / uniquename)
+This is the repository for the Elevators project.
 
-# Work Split / Schedule
-
-# AI Strategy
+You can find the full specification [here](https://github.com/eecs183/elevators/wiki).
